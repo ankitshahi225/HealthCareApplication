@@ -3,7 +3,12 @@
 
 
 
+# Project Structure
 
+* Controller Layer: Manages HTTP requests and sends responses.
+* Service Layer: Contains business logic.
+* Repository Layer: Interacts with the database via Hibernate.
+* Entity Layer: Defines the structure of Doctor, Patient, and Appointment entities.
 
 # **Features**
 
@@ -24,9 +29,9 @@
 * Ensured through Hibernate (JPA), which links all data efficiently in the database.
 
 
-**# API Endpoints**
+# **API Endpoints**
 
-_## Doctor APIs:_
+##  Doctor APIs:
 
 * ##### GET /api/doctors – Get a list of all doctors.
 
@@ -62,15 +67,31 @@ _## Doctor APIs:_
 
 ##### * DELETE /api/appointments/{id} – Cancel an appointment.
 
-Technology Stack
-Backend Framework: Spring Boot (REST APIs)
-Database: MySQL
-ORM (Object Relational Mapping): Hibernate (JPA)
-API Documentation: Swagger (for testing and documenting APIs)
-Build Tool: Maven
-Testing: Postman (for API testing)
-Setup Instructions
-Prerequisites
-Java 17+
-Maven
-MySQL
+# Technology Stack
+
+* _**Backend Framework:** Spring Boot (REST APIs)
+* **Database:** MySQL
+* **ORM (Object Relational Mapping):** Hibernate (JPA)
+* **Build Tool:** Maven
+* **Testing:** Postman (for API testing)_
+* 
+
+# Setup Instructions
+
+## Prerequisites
+
+* Java 17+
+* Maven
+* MySQL
+
+
+# Future Enhancements
+* **Security:** Implement Spring Security to add role-based access control (e.g., for doctors, patients, and admins).
+* **Notifications:** Add real-time notifications for appointments.
+* **Scaling:** Move to microservices architecture for larger systems.
+* **Frontend Integration:** Connect with a frontend (web or mobile) for complete user interaction.
+
+# **Contact Information**
+
+If you have any questions or feedback, feel 
+free to contact me at ankitshahi225@gmail.com
