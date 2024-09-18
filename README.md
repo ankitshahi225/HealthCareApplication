@@ -74,7 +74,7 @@
 * **ORM (Object Relational Mapping):** Hibernate (JPA)
 * **Build Tool:** Maven
 * **Testing:** Postman (for API testing)
-* 
+
 
 # Setup Instructions
 
