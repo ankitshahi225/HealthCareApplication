@@ -33,47 +33,47 @@
 
 ##  Doctor APIs:
 
-* ##### GET /api/doctors – Get a list of all doctors.
+* **GET /api/doctors** – Get a list of all doctors.
 
-* ##### POST /api/doctors – Add a new doctor.
+* **POST /api/doctors** – Add a new doctor.
 
-* ##### GET /api/doctors/{id} – Get details of a specific doctor by ID.
+* **GET /api/doctors/{id}** – Get details of a specific doctor by ID.
 
-* ##### PUT /api/doctors/{id} – Update a doctor's information.
+* **PUT /api/doctors/{id}** – Update a doctor's information.
 
-* ##### DELETE /api/doctors/{id} – Delete a doctor by ID.
+* **DELETE /api/doctors/{id}** – Delete a doctor by ID.
 
 # **Patient APIs:**
 
-* ##### GET /api/patients – Get a list of all patients.
+* **GET /api/patients** – Get a list of all patients.
 
-* ##### POST /api/patients – Add a new patient.
+* **POST /api/patients** – Add a new patient.
 
-* ##### GET /api/patients/{id} – Get details of a specific patient by ID.
+* **GET /api/patients/{id}** – Get details of a specific patient by ID.
 
-* ##### PUT /api/patients/{id} – Update a patient's information.
+* **PUT /api/patients/{id}** – Update a patient's information.
 
-* ##### DELETE /api/patients/{id} – Delete a patient by ID.
+* **DELETE /api/patients/{id}** – Delete a patient by ID.
 
 # **Appointment APIs:**
 
-##### * GET /api/appointments – Get a list of all appointments.
+* **GET /api/appointments** – Get a list of all appointments.
 
-##### * POST /api/appointments – Book a new appointment.
+* **POST /api/appointments** – Book a new appointment.
 
-##### * GET /api/appointments/{id} – Get details of a specific appointment by ID.
+* **GET /api/appointments/{id}** – Get details of a specific appointment by ID.
 
-##### * PUT /api/appointments/{id} – Update an appointment.
+* **PUT /api/appointments/{id}** – Update an appointment.
 
-##### * DELETE /api/appointments/{id} – Cancel an appointment.
+* **DELETE /api/appointments/{id}** – Cancel an appointment.
 
 # Technology Stack
 
-* _**Backend Framework:** Spring Boot (REST APIs)
+* **Backend Framework:** Spring Boot (REST APIs)
 * **Database:** MySQL
 * **ORM (Object Relational Mapping):** Hibernate (JPA)
 * **Build Tool:** Maven
-* **Testing:** Postman (for API testing)_
+* **Testing:** Postman (for API testing)
 * 
 
 # Setup Instructions
