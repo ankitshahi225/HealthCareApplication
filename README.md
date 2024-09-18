@@ -9,16 +9,68 @@
 
 ## Doctor Management:
 
-Add, update, view, and delete doctor details.
+* Add, update, view, and delete doctor details.
 
 ## Patient Management:
 
-Add, update, view, and delete patient records.
+* Add, update, view, and delete patient records.
 
 ## Appointment Management:
 
-Schedule, update, view, and cancel appointments between doctors and patients.
+* Schedule, update, view, and cancel appointments between doctors and patients.
 
 ## Data Consistency:
 
-Ensured through Hibernate (JPA), which links all data efficiently in the database.
+* Ensured through Hibernate (JPA), which links all data efficiently in the database.
+
+
+**# API Endpoints**
+
+_## Doctor APIs:_
+
+* ##### GET /api/doctors – Get a list of all doctors.
+
+* ##### POST /api/doctors – Add a new doctor.
+
+* ##### GET /api/doctors/{id} – Get details of a specific doctor by ID.
+
+* ##### PUT /api/doctors/{id} – Update a doctor's information.
+
+* ##### DELETE /api/doctors/{id} – Delete a doctor by ID.
+
+# **Patient APIs:**
+
+* ##### GET /api/patients – Get a list of all patients.
+
+* ##### POST /api/patients – Add a new patient.
+
+* ##### GET /api/patients/{id} – Get details of a specific patient by ID.
+
+* ##### PUT /api/patients/{id} – Update a patient's information.
+
+* ##### DELETE /api/patients/{id} – Delete a patient by ID.
+
+# **Appointment APIs:**
+
+##### * GET /api/appointments – Get a list of all appointments.
+
+##### * POST /api/appointments – Book a new appointment.
+
+##### * GET /api/appointments/{id} – Get details of a specific appointment by ID.
+
+##### * PUT /api/appointments/{id} – Update an appointment.
+
+##### * DELETE /api/appointments/{id} – Cancel an appointment.
+
+Technology Stack
+Backend Framework: Spring Boot (REST APIs)
+Database: MySQL
+ORM (Object Relational Mapping): Hibernate (JPA)
+API Documentation: Swagger (for testing and documenting APIs)
+Build Tool: Maven
+Testing: Postman (for API testing)
+Setup Instructions
+Prerequisites
+Java 17+
+Maven
+MySQL
